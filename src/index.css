@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cambria";
+  background: #000000;
+  color: #222;
+}
+.image {
+  margin-top: 1rem;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-left: 1.2rem;
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 2rem;
+  align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(4, 0.5fr);
+  }
+}
+
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 1.4rem;
+  position: relative;
+  left: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.book h3 {
+  margin-top: 0.5rem;
+}
+.book h5 {
+  margin-top: 0.5rem;
+}
+
+.productName {
+  font-size: 18px;
+}
+
+.category {
+  font-size: 18px;
+}
+.Ratings {
+  font-size: 18px;
+}
+.Price {
+  font-size: 18px;
+}
+
+/* Search CSS */
+
+.box {
+  margin: 0 42%;
+  margin-top: 2%;
+  margin-bottom: -1%;
+  width: 40px;
+}
+
+.input {
+  position: relative;
+  right: 40px;
+  padding: 10px;
+  width: 330px;
+  height: 40px;
+  background: none;
+  border: 4px solid #97958e;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 16px;
+  color: #97958e;
+  outline: none;
+  transition: 0.5s;
+}
+
+.edit {
+  position: relative;
+  width: 50px;
+  height: 30px;
+  background: none;
+  border: 3px solid #0384fc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 12px;
+  color: #0384fc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.remove {
+  position: relative;
+  left: 180px;
+  width: 60px;
+  height: 30px;
+  background: none;
+  border: 3px solid #7a0404;
+  border-radius: 40px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 12px;
+  color: #7a0404;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 800px;
+  height: 670px;
+}
+
+.text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.select {
+  text-align: center;
+  appearance: none;
+  position:  relative; left:20px;
+  height: 30px;
+  width: 100px;
+  outline: 0;
+  background: #d1e6e0;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.mainform {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.button{
+  border-radius: 8px;
+  margin-left: 1.5rem;
+  margin-bottom: 1.6rem;
+  position: absolute;
+  background-color: #0366fc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.homeSubmit {
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  position: relative;
+  background-color: #0366fc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.rating{
+  text-align: center;
+  appearance: none;
+  position:  relative; left:20px;
+  height: 30px;
+  width: 50px;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+  outline: 0;
+  background: #bfcddc;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.filter{
+  display: flex;
+  float: right; 
+  margin-right: 2.2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  appearance: none;
+  height: 50px;
+  width: 100px;
+  outline: 0;
+  background: #d1e6e0;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
